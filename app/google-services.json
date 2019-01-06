@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1072468961273",
+    "firebase_url": "https://servicecentral-c3a00.firebaseio.com",
+    "project_id": "servicecentral-c3a00",
+    "storage_bucket": "servicecentral-c3a00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072468961273:android:2b94df65bbee7966",
+        "android_client_info": {
+          "package_name": "com.dasinnovationapps.prat.servicecentral"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072468961273-p3ja1p0l7kn871o8i8m7vjvf5rtr9ug4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dasinnovationapps.prat.servicecentral",
+            "certificate_hash": "ff7e037f4e6b5df836a0e1f44acd97196a09a243"
+          }
+        },
+        {
+          "client_id": "1072468961273-15q6p1pdp562vt068m01sfubnharo23t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqew9L31EjOBqPcJFSPqTlqApbaLv-NZQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072468961273-15q6p1pdp562vt068m01sfubnharo23t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

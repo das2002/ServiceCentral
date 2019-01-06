@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Enter your organization's details"/>
+
+    <EditText
+        android:id="@+id/organizationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Organization Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/organizationAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Organization Address"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the details of the primary contact for the organization" />
+
+    <EditText
+        android:id="@+id/contactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/contactEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/contactPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Phone Number"
+        android:inputType="phone" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter log in information"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/organizationAccountUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account Email"
+        android:inputType="text|textEmailAddress" />
+
+    <EditText
+        android:id="@+id/organizationAccountPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account Password"
+        android:inputType="textPassword" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/organizationRegistration"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/goBackToFirstPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Go Back?" />
+
+</LinearLayout>
